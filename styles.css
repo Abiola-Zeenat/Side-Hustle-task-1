@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("norse-bold/Norse-Bold.eot?") format("eot"),
+    url("norse-bold/Norse-Bold.woff") format("woff"),
+    url("norse-bold/Norse-Bold.ttf") format("truetype"),
+    url("Norse-Bold.svg#Norse-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+.sidebar {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+#logo {
+  background-image: url(images/leaf_image.avif);
+  /* background-repeat: no-repeat; */
+  color: white;
+}
+#logo p {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 50vh;
+}
+#Odin_logo {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+h1 {
+  display: inline;
+  font-family: "Norse-Bold";
+  font-size: 50px;
+}
+.sidebar_2 {
+  margin: 100px 0px 0 0px;
+}
+#do {
+  margin-bottom: 10px;
+}
+#intro {
+  margin-bottom: 20px;
+}
+.intro {
+  margin: 0 0 50px 30px;
+}
+.footer {
+  margin-left: 30px;
+  font-size: 10px;
+}
+#create {
+  padding: 8px 30px;
+  background-color: #596d48;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.form_input {
+  padding: 10px 0px 1px 30px;
+  margin-bottom: 20px;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 5px;
+}
+.input {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 5px 30px;
+  margin-bottom: 40px;
+  width: 300px;
+}
+label {
+  font-size: 8px;
+}
+input {
+  padding: 5px;
+    font-size: 10px; 
+    border: 1px solid #888888;
+   border-radius: 2px;
+}
+span{ color: #596d48;}
+#password{
+border-color:  rgba(179, 34, 34, 0.753);}
+#last_name{border-color: rgba(36, 36, 177, 0.705);}
